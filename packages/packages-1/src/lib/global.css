@@ -1,0 +1,124 @@
+/**
+ *
+ * FOUNDATIONS.................expose from foundation folder
+ * BASE........................
+ *
+ */
+/*=============================================
+=            Foundation            =
+=============================================*/
+/*==================================
+  #Variables
+  =================================*/
+/**
+  * TABLE OF CONTENTS
+  *
+  * COLORS
+  * Brand colors.......... main bran colors
+  * Neutral colors........ White & Black, grey scale, secondary colors.
+  * Utility colors........ Other colors to represent states: info, warning, success, etc.
+  *
+  * TYPOGRAPHY
+  * Font families.......... fonts in design system
+  * Font weight
+  * Sizes.................. for body text, p, inputs
+  * Heading sizes
+  *
+  * BREAKPOINTS
+  * Breakpoints............. Global responsive breakpoints definitions
+  *
+  * SPACING
+  * Spacing............. Global spacking fix definitions
+  */
+/*=============================================
+=            Colors                           =
+=============================================*/
+/*----------  Brand Colors  ----------*/
+/*----------  Neutral Colors  ----------*/
+/*----------  utilities colors  ----------*/
+/*=====  End of Colors  ======*/
+/*=============================================
+=            Typography                       =
+=============================================*/
+/*----------  Font families  ----------*/
+/*----------  Font sizes  ----------*/
+/*----------  Heading font sizes  ----------*/
+/*----------  Font weights  ----------*/
+/*=====  End of Typography  ======*/
+/*=============================================
+=            Breakpoints                      =
+=============================================*/
+/*=====  End of Breakpoints  ======*/
+/*=============================================
+=            Spacing                          =
+=============================================*/
+/*=====  End of Spacing                ======*/
+/**
+ *
+ * The actual colors for styles
+ * This is our default palette, and devs can override this with their own variables
+ *
+ */
+/*=============================================
+ =            Global text colors            =
+ =============================================*/
+/*=====  End of Global text colors  ======*/
+/*=============================================
+ =            Buttons            =
+ =============================================*/
+/*=====  End of Buttons  ======*/
+/*=============================================
+ =            Forms            =
+ =============================================*/
+/*=====  End of Forms  ======*/
+/**
+ *
+ * Default font sizes for heading and texts
+ *
+ */
+/*=============================================
+=            Body font sizes                  =
+=============================================*/
+/*=====  End of Body text sizes        ======*/
+/*=============================================
+=            Heading font sizes               =
+=============================================*/
+/*=============================================
+=            Heading font weight              =
+=============================================*/
+/*=====  End of Heading font weidht    ======*/
+/*=============================================
+=            Mixins                           =
+=============================================*/
+/*=====  End of Mixins                 ======*/
+/*=============================================
+=            Base                             =
+=============================================*/
+/*=============================================
+=            CSS RESETS                       =
+=============================================*/
+/**
+ *
+ * Normalize.css npm package
+ * https://www.npmjs.com/package/normalize-scss
+ *
+ */
+:root {
+  --dse-body-text-color: #151515;
+  --dse-bg-color: #fff;
+  --dse-btn-primary-color: white;
+  --dse-btn-primary-bg: green;
+  --dse-btn-primary-bg-hover: green-light;
+  --dse-form-color: #151515;
+  --dse-form-bg: #fff;
+  --dse-error-color: #fb1313;
+  --dse-error-border: #fb1313;
+  --dse-border-focus-color: #04aa04;
+  --dse-body-font-size: 0.875rem;
+  --dse-body-font-weight: 400;
+  --dse-h1-font-size: 1.375rem;
+  --dse-h2-font-size: 1.375rem;
+  --dse-h3-font-size: 1rem;
+  --dse-h4-font-size: 1.125rem;
+  --dse-h5-font-size: 0.75rem;
+  --dse-h6-font-size: 0.75rem; }
